@@ -5,11 +5,6 @@
 #
 # License is MIT: https://github.com/BioJulia/Bio.jl/blob/master/LICENSE.md
 
-using BioAlignments.BAM
-using Gadfly
-using DataFrames
-using CSV
-
 include("basic_stats.jl")
 include("chimericreads.jl")
 include("chromosome.jl")

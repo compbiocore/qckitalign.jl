@@ -1,5 +1,11 @@
 module qckitalign
 
-# package code goes here
+export
+    runall
 
+# package code goes here
+using BioAlignments.BAM
+using Gadfly
+using DataFrames
+using CSV
 end # module
